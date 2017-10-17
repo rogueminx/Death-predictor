@@ -16,13 +16,34 @@ $(document).ready(function() {
 
 
     $("#blanks").hide();
-    $("#deathIntro").show();
-    $("#deathParagraph01").show();
-    $("#deathParagraph02").show();
-    $("#deathParagraph03").show();
-    $("#deathParagraph04").show();
-    $("#deathParagraph05").show();
-    $("body").css("background-color", hatedColor);
+    $("#deathIntro").fadeIn(3000);
+    $("#deathParagraph01").fadeIn(3000);
+    $("#glyphicon01").click(function() {
+        $("#deathParagraph01").hide();
+        $("#deathParagraph02").fadeIn(3000);
+    });
+    $("#glyphicon02").click(function() {
+        $("#glyphicon02").hide();
+        $("#deathParagraph03").fadeIn(3000);
+    });
+    $("#glyphicon03").click(function() {
+        $("#glyphicon03").hide();
+        $("#deathParagraph04").fadeIn(3000);
+    });
+    $("#glyphicon04").click(function() {
+        $("#glyphicon04").hide();
+        $("#deathParagraph05").fadeIn(3000);
+    });
+    $("#glyphicon05").click(function() {
+        $("#glyphicon04").hide();
+        $("#deathParagraph05").hide();
+        $("#deathParagraph04").hide();
+        $("#deathParagraph03").hide();
+        $("#deathParagraph02").hide();
+        $("#deathIntro").hide();
+        $("body").css("background-color", hatedColor);
+    });
+
 
 
 

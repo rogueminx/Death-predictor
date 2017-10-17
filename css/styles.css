@@ -1,25 +1,37 @@
 #deathIntro {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathParagraph01 {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathParagraph02 {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathParagraph03 {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathParagraph04 {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathParagraph05 {
   display: none;
+  font-family: serif;
+  text-align: center;
 }
 
 #deathIntro {
@@ -29,4 +41,8 @@
 
 body {
   background-color: 'hatedColor';
+}
+
+.glyphicon-chevron-right:hover{
+  color: #800000;
 }
