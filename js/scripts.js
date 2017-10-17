@@ -14,8 +14,18 @@ $(document).ready(function() {
     $(".hatedColor").text(hatedColor);
     $(".futureAge").text(age);
 
-    $("#death").show();
+
     $("#blanks").hide();
+    $("#deathIntro").show();
+    $("#deathParagraph01").show();
+    $("#deathParagraph02").show();
+    $("#deathParagraph03").show();
+    $("#deathParagraph04").show();
+    $("#deathParagraph05").show();
+    $("body").css("background-color", hatedColor);
+
+
+
     event.preventDefault();
   });
 });

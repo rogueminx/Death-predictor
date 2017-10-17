@@ -1,3 +1,32 @@
-#death {
+#deathIntro {
   display: none;
+}
+
+#deathParagraph01 {
+  display: none;
+}
+
+#deathParagraph02 {
+  display: none;
+}
+
+#deathParagraph03 {
+  display: none;
+}
+
+#deathParagraph04 {
+  display: none;
+}
+
+#deathParagraph05 {
+  display: none;
+}
+
+#deathIntro {
+  font-family: serif;
+  text-align: center;
+}
+
+body {
+  background-color: 'hatedColor';
 }
